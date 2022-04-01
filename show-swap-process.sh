@@ -1,5 +1,6 @@
 #!/bin/bash
 # swapしてるプロセスがわかるよ！(CentOS6。。。たぶんLinux全般)
+
 SUM=0
 OVERALL=0
 for DIR in `find /proc/ -maxdepth 1 -type d | egrep "^/proc/[0-9]"` ; do
